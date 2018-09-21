@@ -125,3 +125,7 @@ div .header-img img{
 	height: 300px;
 	width:300px;
 }
+div .border{
+	border:3px thin black;
+	margin-bottom:50px;
+}
