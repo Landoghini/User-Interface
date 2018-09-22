@@ -133,6 +133,17 @@ header{
 	padding: 5px 45px;
 	border:1px solid slategrey;
 }
+
+.header .header-title a{
+	color: black;
+}
+
+.header .header-title a:link{
+	text-decoration: none;
+}
+.header .header-title p:hover{
+	background-color:gold;
+}
 div .header-img{
 	display:inline-block;
 }
@@ -145,23 +156,23 @@ div .header-img img{
 	width: 95%;
 }
 
-.content{
+#content{
 	width: 100%;
 	margin-top:50px;
 	margin-bottom: 100px;
 }
-.content .features{
+#content .features{
 	display: inline-block;
 	margin-left:45px;
 	width: 45%;
 	/* border:3px solid red; */
 }
-.content .about{
+#content .about{
 	display: inline-block;
 	width: 45%;
 	/* border:3px solid red; */
 }
-.content article{
+#content article{
 	padding-right:10px;
 }
 article .features h2{
@@ -176,18 +187,18 @@ div .middle-img{
 div .middle-img img{
 	width:100%;
 }
-.content .services{
+#content .services{
 	display: inline-block;
 	margin-left:45px;
 	width: 30%;
 	/* border:3px solid red; */
 }
-.content .product{
+#content .product{
 	display: inline-block;
 	width: 30%;
 	/* border:3px solid red; */
 }
-.content .vision{
+#content .vision{
 	display: inline-block;
 	width: 30%;
 	/* border:3px solid red; */
